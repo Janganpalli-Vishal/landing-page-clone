@@ -1,0 +1,144 @@
+.navbar-nav a {
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none !important;
+    font-weight: 600;
+}
+.navbar-nav a:hover {
+    color: rgba(250, 74, 12, 1);
+}
+.content1 {
+    padding: 3rem;
+    background-image: url("/images/Rectangle\ 48.png");
+    text-align: center;
+    color: white;
+    padding-bottom: 7rem;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn1 {
+    width: 120px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: rgb(250, 74, 12);
+    border: white;
+    margin: 10px;
+}
+.btn2{
+    width: 120px;
+    height: 38px;
+    border-radius: 30px;
+    background-color: transparent;
+    color: aliceblue;
+    margin: 10px;
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    margin-top: -16rem;  
+    margin-bottom: -4rem;
+}
+.head1{
+    text-align: center;
+}
+.content3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.in2{
+    display: flex;
+     justify-content: center;
+}
+.content4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3rem;
+}
+.in5{
+    display: flex;
+     justify-content: center;
+}
+.content5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+    margin-left: -1rem;
+}
+.content6{
+    background-image: url("/images/Rectangle\ 4.jpg");
+    text-align: center;
+    padding: 5rem;
+    color: aliceblue;
+}
+p{
+    font-weight: 500;
+}
+.content7{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+@media (max-width:625px){
+    .content1{
+        color: black;
+        background-image: none;
+        margin-bottom: 3rem;   
+    }
+    .btn2{
+        color: rgb(250, 74, 12);
+        border-color: rgb(250, 74, 12);
+    }
+    
+    .content3{
+        flex-direction: column;        
+    }
+    .in3 {
+        width: 250px;
+        font-size: 1rem;
+       text-align: center;
+    }
+    .content4{
+        flex-direction: column-reverse;
+    }
+    .in4{
+        width: 250px;      
+        font-size: 1rem;
+        text-align: center;
+    }
+    .content5{
+        flex-direction: column;
+        padding-left: 3rem;
+    }
+    .in7{
+        width: 250px;      
+        font-size: 1rem;
+        text-align: center;
+    }
+    .content6{
+        background-image: none;
+        background-color: rgba(37, 43, 66, 1);
+        color: aliceblue;
+    }
+    .in8{
+        display: none;
+    }
+    .in9{
+        padding-top: 1rem;
+    }
+    .content7{
+        flex-direction: column;
+    }
+}
